@@ -1,5 +1,5 @@
 api:
-	pipenv run uvicorn chapter3_first_endpoint_01:app
+	pipenv run uvicorn chapter3_query_parameters_01:app
 
 example_request:
-	http http://localhost:8000
+	http "http://localhost:8000/users?format=short"
